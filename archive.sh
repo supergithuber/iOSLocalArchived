@@ -7,6 +7,7 @@
 
 # =============项目自定义部分(自定义好下列参数后再执行该脚本)=================== #
 
+__SLEEP_TIME=0.3
 # 是否编译工作空间 (例:若是用Cocopods管理的.xcworkspace项目,赋值true;用Xcode默认创建的.xcodeproj,赋值false)
 is_workspace="false"
 
@@ -19,7 +20,7 @@ project_name="OneXLocalStitcher"
 # 指定项目的scheme名称（也就是工程的target名称），必填
 scheme_name="OneXLocalStitcher"
 
-# 指定要打包编译的方式 : Release,Debug。一般用Release。必填
+# 指定要打包编译的方式 : Release,Debug, 必填
 build_configuration="Release"
 
 # method，打包的方式。方式分别为 development, ad-hoc, app-store, enterprise 。必填
